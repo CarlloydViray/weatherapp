@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weatherapp_viraycarlloyd/screens/current_locationScreen.dart';
-import 'package:weatherapp_viraycarlloyd/screens/registerScreen.dart';
+import 'package:weatherapp_viraycarlloyd/screens/mapsScreen.dart';
 
 void main(List<String> args) {
   runApp(const WeatherApp());
@@ -11,9 +10,9 @@ class WeatherApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: currentLocationScreen(),
+      home: mapsScreen(),
     );
   }
 }

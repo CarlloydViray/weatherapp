@@ -4,6 +4,8 @@
         android:label="weatherapp_viraycarlloyd"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyASaKLV6GWep3V05Y_U53_Rj9ZGejzoL2o"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
